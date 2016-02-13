@@ -1,0 +1,199 @@
+
+> testWebapp@0.0.0 test /Users/tg23qo/workspace/angular-tdd-fun
+> gulp test
+
+[20:44:41] Using gulpfile ~/workspace/angular-tdd-fun/gulpfile.js
+[20:44:41] Starting 'scripts:test'...
+[20:44:41] Starting 'markups'...
+[20:44:41] Finished 'markups' after 57 ms
+[20:44:43] Time: 1504ms
+          Asset     Size  Chunks             Chunk Names
+index.module.js  21.7 kB       0  [emitted]  main
+[20:44:43] Finished 'scripts:test' after 1.69 s
+[20:44:43] Starting 'test'...
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 0 of 18 SUCCESS (0 secs / 0 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) controllers "before each" hook: workFn for "should have a timestamp creation date" FAILED
+	ReferenceError: spyOn is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:24742)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:24617)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:24350)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1291)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1105
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 1 of 18 (1 FAILED) (0 secs / 0.072 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor should be registered FAILED
+	TypeError: expect(...).not.toEqual is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26720)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26576)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1105
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 2 of 18 (2 FAILED) (0 secs / 0.081 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor apiHost variable should exist FAILED
+	TypeError: expect(...).not.toEqual is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27066)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26914)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26778)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 3 of 18 (3 FAILED) (0 secs / 0.087 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor getContributors function should exist FAILED
+	TypeError: expect(...).not.toEqual is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27431)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27271)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27127)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 4 of 18 (4 FAILED) (0 secs / 0.096 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor getContributors function should return data FAILED
+	ReferenceError: jasmine is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:28122)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27513)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27127)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 5 of 18 (5 FAILED) (0 secs / 0.107 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor getContributors function should define a limit per page as default value FAILED
+	ReferenceError: jasmine is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:29007)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:28401)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27127)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 6 of 18 (6 FAILED) (0 secs / 0.114 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service githubContributor getContributors function should log a error FAILED
+	ReferenceError: jasmine is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:29606)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:29173)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:27127)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:26337)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1354)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 7 of 18 (7 FAILED) (0 secs / 0.125 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) directive navbar should be compiled FAILED
+	TypeError: expect(...).not.toEqual is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:30944)
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 8 of 18 (8 FAILED) (0 secs / 0.125 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) directive navbar should have isolate scope object with instanciate members FAILED
+	ReferenceError: jasmine is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:31173)
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 9 of 18 (9 FAILED) (0 secs / 0.125 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) directive malarkey "before each" hook: workFn for "should be compiled" FAILED
+	ReferenceError: spyOn is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:32145)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:32008)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:31672)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1480)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1105
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 10 of 18 (10 FAILED) (0 secs / 0.133 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service webDevTec should be registered FAILED
+	TypeError: expect(...).not.toEqual is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34036)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:33908)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:33677)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1558)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1105
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 11 of 18 (11 FAILED) (0 secs / 0.14 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service webDevTec getTec function should exist FAILED
+	TypeError: expect(...).not.toBeNull is not a function
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34364)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34229)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34094)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:33677)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1558)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 12 of 18 (12 FAILED) (0 secs / 0.146 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3) service webDevTec getTec function should return array of object FAILED
+	ReferenceError: jasmine is not defined
+	    at Context.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34649)
+	    at Object.invoke (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular/angular.js:4535:17)
+	    at Context.workFn (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2517:20)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (/Users/tg23qo/workspace/angular-tdd-fun/bower_components/angular-mocks/angular-mocks.js:2488:25)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34454)
+	    at Suite.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:34094)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:33677)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at Object.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1558)
+	    at __webpack_require__ (/Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:643)
+	    at /Users/tg23qo/workspace/angular-tdd-fun/.tmp/serve/app/index.module.js:9:1081
+Chrome 48.0.2564 (Mac OS X 10.11.3): Executed 13 of 18 (13 FAILED) (0 secs / 0.152 secs)
+[1A[2KChrome 48.0.2564 (Mac OS X 10.11.3): Executed 13 of 18 (13 FAILED) ERROR (0.23 secs / 0.152 secs)
+[20:44:44] 'test' errored after 1.48 s
+[20:44:44] Error: Failed 1 tests.
+    at /Users/tg23qo/workspace/angular-tdd-fun/gulp/unit-tests.js:42:22
+    at removeAllListeners (/Users/tg23qo/workspace/angular-tdd-fun/node_modules/karma/lib/server.js:330:7)
+    at Server.<anonymous> (/Users/tg23qo/workspace/angular-tdd-fun/node_modules/karma/lib/server.js:341:9)
+    at Server.g (events.js:260:16)
+    at emitNone (events.js:72:20)
+    at Server.emit (events.js:166:7)
+    at emitCloseNT (net.js:1524:8)
+    at nextTickCallbackWith1Arg (node.js:444:9)
+    at process._tickCallback (node.js:366:17)

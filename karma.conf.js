@@ -53,7 +53,7 @@ module.exports = function(config) {
 
     logLevel: 'WARN',
 
-    frameworks: ['mocha', 'chai', 'chai-as-promised'],
+    frameworks: ['mocha', 'chai-as-promised', 'chai'],
     browsers : ['Chrome'],
 
     plugins : [
